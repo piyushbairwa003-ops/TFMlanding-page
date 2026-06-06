@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Forex Master's – Auto Trading Platform | 10-15% Daily Return | Safe Currency Trading</title>
+  <meta name="description" content="Forex Master's Auto Trading Platform. Daily 10-15% guaranteed return. Safe trading platform. Currency market trading. Join now on WhatsApp!"/>
+  <meta name="keywords" content="Forex Masters, Auto Trading, Daily Return, Currency Market, Forex Trading, Safe Trading Platform"/>
+  <meta property="og:image" content="https://fantasticczone.site/wp-content/uploads/2026/06/photo_2026-06-06_12-12-58.jpg"/>
+  <link rel="canonical" href="https://wa.link/a7ldjy"/>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap" rel="stylesheet"/>
+  <style>
+    *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+    :root{
+      --em:#059669;--em2:#10b981;--em3:#34d399;--em4:#6ee7b7;
+      --gold:#d97706;--gld2:#f59e0b;--gld3:#fde68a;
+      --bl:#1d4ed8;--bl2:#3b82f6;--bl3:#93c5fd;
+      --dark:#020a06;--bdr:rgba(5,150,105,.22);--txt:#ecfdf5;
+    }
+    html,body{height:100%;width:100%;background:var(--dark);font-family:'Poppins',sans-serif;color:var(--txt);overflow:hidden}
+
+    .bg{position:fixed;inset:0;z-index:0;pointer-events:none;background:
+      radial-gradient(ellipse at 20% 5%,rgba(5,150,105,.24) 0%,transparent 50%),
+      radial-gradient(ellipse at 82% 95%,rgba(217,119,6,.14) 0%,transparent 50%),
+      radial-gradient(ellipse at 50% 50%,rgba(2,10,6,.97) 0%,transparent 70%)}
+
+    /* FOREX TICKER LINE */
+    .ticker-wrap{position:fixed;top:3px;left:0;right:0;height:22px;background:rgba(5,150,105,.10);border-bottom:1px solid rgba(5,150,105,.18);overflow:hidden;z-index:99;display:flex;align-items:center}
+    .ticker-track{display:flex;gap:32px;animation:tick 18s linear infinite;white-space:nowrap;padding-left:100%}
+    @keyframes tick{0%{transform:translateX(0)}100%{transform:translateX(-50%)}}
+    .ti{font-size:8.5px;font-weight:700;letter-spacing:.08em;display:flex;align-items:center;gap:5px;flex-shrink:0}
+    .ti .lbl{color:rgba(255,255,255,.35)}
+    .ti .up{color:var(--em3)}
+    .ti .dn{color:#f87171}
+
+    .top-bar{position:fixed;top:0;left:0;right:0;height:3px;
+      background:linear-gradient(90deg,#064e3b,var(--em),var(--em2),var(--gld2),var(--em3),var(--gld2),var(--em2),var(--em),#064e3b);
+      background-size:300% auto;animation:bf 3s linear infinite;z-index:100}
+    @keyframes bf{0%{background-position:0% center}100%{background-position:300% center}}
+
+    .tex{position:fixed;inset:0;z-index:0;pointer-events:none;
+      background-image:radial-gradient(circle,rgba(5,150,105,.07) 1px,transparent 1px);
+      background-size:22px 22px;animation:td 26s linear infinite}
+    @keyframes td{0%{background-position:0 0}100%{background-position:22px 22px}}
+
+    .grid{position:fixed;inset:0;z-index:0;pointer-events:none;
+      background-image:linear-gradient(rgba(5,150,105,.04) 1px,transparent 1px),linear-gradient(90deg,rgba(5,150,105,.04) 1px,transparent 1px);
+      background-size:32px 32px;animation:gm 22s linear infinite}
+    @keyframes gm{0%{background-position:0 0}100%{background-position:32px 32px}}
+
+    .scan{position:fixed;left:0;right:0;height:1px;
+      background:linear-gradient(90deg,transparent,rgba(5,150,105,.55),rgba(217,119,6,.3),transparent);
+      z-index:0;pointer-events:none;animation:sm 10s linear infinite}
+    @keyframes sm{0%{top:25px;opacity:0}5%{opacity:1}95%{opacity:.2}100%{top:100%;opacity:0}}
+
+    .orb{position:fixed;border-radius:50%;filter:blur(88px);z-index:0;pointer-events:none}
+    .o1{width:320px;height:320px;background:rgba(5,150,105,.18);top:-90px;right:-70px;animation:of 12s ease-in-out infinite alternate}
+    .o2{width:240px;height:240px;background:rgba(217,119,6,.12);bottom:-70px;left:-50px;animation:of 15s ease-in-out infinite alternate-reverse}
+    .o3{width:160px;height:160px;background:rgba(29,78,216,.07);top:42%;right:-38px;animation:of 9s ease-in-out infinite alternate}
+    @keyframes of{0%{transform:translate(0,0) scale(1)}100%{transform:translate(14px,18px) scale(1.08)}}
+
+    .pts{position:fixed;inset:0;z-index:0;pointer-events:none}
+    .p{position:absolute;border-radius:50%;animation:pu linear infinite;opacity:0}
+    .p1{width:3px;height:3px;background:var(--em3);left:6%;top:22%;animation-duration:7s;animation-delay:0s}
+    .p2{width:2px;height:2px;background:var(--gld3);left:18%;top:65%;animation-duration:9s;animation-delay:1s}
+    .p3{width:3px;height:3px;background:var(--em4);left:30%;top:35%;animation-duration:8s;animation-delay:2s}
+    .p4{width:2px;height:2px;background:var(--gld2);left:48%;top:75%;animation-duration:10s;animation-delay:.5s}
+    .p5{width:3px;height:3px;background:var(--em3);left:64%;top:18%;animation-duration:7.5s;animation-delay:3s}
+    .p6{width:2px;height:2px;background:var(--gld3);left:76%;top:80%;animation-duration:9s;animation-delay:1.5s}
+    .p7{width:3px;height:3px;background:var(--em2);left:87%;top:44%;animation-duration:8s;animation-delay:2.5s}
+    .p8{width:2px;height:2px;background:var(--gld2);left:94%;top:28%;animation-duration:10s;animation-delay:0s}
+    @keyframes pu{0%{opacity:0;transform:translateY(0) scale(.5)}20%{opacity:.9}80%{opacity:.4}100%{opacity:0;transform:translateY(-65px) scale(1.2)}}
+
+    .page{position:relative;z-index:1;height:100vh;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:28px 22px 26px;overflow:hidden;gap:0}
+
+    /* HEADER */
+    .hdr{display:flex;align-items:center;gap:8px;margin-bottom:11px;animation:fu .4s ease both}
+    .hl{flex:1;height:1px;max-width:40px;background:linear-gradient(90deg,transparent,var(--em2),transparent)}
+    .ht{font-size:9px;font-weight:700;letter-spacing:.36em;color:var(--em4);text-transform:uppercase;opacity:.85;white-space:nowrap}
+
+    /* LOGO */
+    .ll{text-decoration:none;display:block}
+    .ls{display:flex;flex-direction:column;align-items:center;animation:fu .4s .05s ease both}
+    .lo{position:relative;width:110px;height:110px}
+    .r1{position:absolute;inset:-7px;border-radius:50%;border:2.5px solid transparent;
+      background:linear-gradient(var(--dark),var(--dark)) padding-box,
+      conic-gradient(#064e3b 0%,var(--em) 18%,var(--em2) 35%,var(--em3) 50%,var(--gld2) 65%,var(--gld3) 80%,#064e3b 100%) border-box;
+      animation:rs 5.5s linear infinite}
+    .r2{position:absolute;inset:-15px;border-radius:50%;border:1px solid rgba(5,150,105,.18);animation:rs 9.5s linear infinite reverse}
+    .r3{position:absolute;inset:-23px;border-radius:50%;border:1px dashed rgba(217,119,6,.09);animation:rs 14s linear infinite}
+    @keyframes rs{to{transform:rotate(360deg)}}
+    .li{position:absolute;inset:0;border-radius:50%;overflow:hidden;display:flex;align-items:center;justify-content:center;background:#051a0e}
+    .li img{width:100%;height:100%;object-fit:cover}
+    .ld{position:absolute;width:7px;height:7px;border-radius:50%}
+    .d1{top:-3px;left:50%;transform:translateX(-50%);background:var(--em2);box-shadow:0 0 10px var(--em)}
+    .d2{bottom:-3px;left:50%;transform:translateX(-50%);background:var(--gld2);box-shadow:0 0 10px var(--gold)}
+    .d3{left:-3px;top:50%;transform:translateY(-50%);background:var(--em3);box-shadow:0 0 8px var(--em2)}
+    .d4{right:-3px;top:50%;transform:translateY(-50%);background:var(--gld3);box-shadow:0 0 8px var(--gld2)}
+    .badge{position:absolute;bottom:2px;right:2px;width:27px;height:27px;border-radius:50%;
+      background:linear-gradient(135deg,var(--em),var(--em2));display:flex;align-items:center;justify-content:center;
+      font-size:13px;border:2px solid var(--dark);z-index:3;box-shadow:0 2px 14px rgba(5,150,105,.8)}
+    .nr{margin-top:10px;display:flex;align-items:center;gap:6px}
+    .nrl{width:20px;height:1px}
+    .nl1{background:linear-gradient(90deg,transparent,var(--em2))}
+    .nl2{background:linear-gradient(90deg,var(--gld2),transparent)}
+    .nrt{font-size:9px;font-weight:700;letter-spacing:.2em;color:rgba(52,211,153,.42);text-transform:uppercase}
+
+    /* TITLE */
+    .tw{text-align:center;margin-top:10px;animation:fu .4s .12s ease both}
+    .pl{font-size:8px;font-weight:600;letter-spacing:.36em;color:rgba(255,255,255,.22);text-transform:uppercase;margin-bottom:4px}
+    h1{font-size:clamp(20px,5.2vw,44px);font-weight:900;letter-spacing:.05em;line-height:1.05;color:#fff;text-shadow:0 0 34px rgba(5,150,105,.28)}
+    h1 .fx{color:var(--em3);text-shadow:0 0 18px rgba(52,211,153,.85)}
+    h1 .ms{color:var(--gld3);text-shadow:0 0 16px rgba(253,230,138,.75)}
+    .atag{display:inline-flex;align-items:center;gap:5px;background:rgba(217,119,6,.10);border:1px solid rgba(217,119,6,.28);border-radius:999px;padding:3px 12px;font-size:9px;font-weight:700;letter-spacing:.16em;color:var(--gld3);text-transform:uppercase;margin-top:5px}
+    .adot{width:5px;height:5px;border-radius:50%;background:var(--gld2);animation:dp 1.4s ease-in-out infinite}
+    @keyframes dp{0%,100%{opacity:1}50%{opacity:.3}}
+    .tgl{margin-top:5px;font-size:clamp(9.5px,2vw,12px);color:rgba(255,255,255,.28);font-weight:500;letter-spacing:.03em;line-height:1.6}
+    .tgl .hi{color:var(--em3);font-weight:700}
+    .tgl .h2{color:var(--gld3);font-weight:700}
+
+    /* RETURN HIGHLIGHT BANNER */
+    .ret-banner{display:flex;align-items:center;gap:0;background:rgba(5,150,105,.10);border:1px solid var(--bdr);border-radius:10px;overflow:hidden;width:100%;max-width:340px;margin-top:11px;animation:fu .4s .20s ease both;position:relative}
+    .ret-banner::before{content:'';position:absolute;top:0;left:0;right:0;height:1px;background:linear-gradient(90deg,transparent,var(--em2),var(--gld2),transparent)}
+    .rb-left{background:linear-gradient(135deg,var(--em),var(--em2));padding:14px 16px;display:flex;flex-direction:column;align-items:center;justify-content:center;flex-shrink:0}
+    .rb-pct{font-size:26px;font-weight:900;line-height:1;color:#fff;letter-spacing:.04em}
+    .rb-sub{font-size:8px;font-weight:700;color:rgba(255,255,255,.7);letter-spacing:.1em;text-transform:uppercase;margin-top:2px}
+    .rb-right{padding:11px 14px;flex:1}
+    .rb-right b{display:block;font-size:11.5px;font-weight:800;color:#fff;letter-spacing:.03em;line-height:1.3}
+    .rb-right span{font-size:9px;color:rgba(255,255,255,.32);font-weight:500;line-height:1.5}
+    .rb-live{display:flex;align-items:center;gap:4px;margin-top:5px}
+    .rld{width:6px;height:6px;border-radius:50%;background:var(--em3);box-shadow:0 0 7px var(--em3);animation:dp 1.4s ease-in-out infinite}
+    .rlt{font-size:8px;font-weight:700;color:var(--em3);letter-spacing:.08em}
+
+    /* FEATURE GRID */
+    .fg{display:grid;grid-template-columns:repeat(3,1fr);gap:7px;width:100%;max-width:340px;margin-top:10px;animation:fu .4s .28s ease both}
+    .fc{background:rgba(5,150,105,.07);border:1px solid rgba(5,150,105,.16);border-radius:9px;padding:9px 5px;text-align:center;position:relative;overflow:hidden}
+    .fc::before{content:'';position:absolute;bottom:0;left:0;right:0;height:1.5px}
+    .fc:nth-child(1)::before{background:linear-gradient(90deg,transparent,var(--em2),transparent)}
+    .fc:nth-child(2)::before{background:linear-gradient(90deg,transparent,var(--gld2),transparent)}
+    .fc:nth-child(3)::before{background:linear-gradient(90deg,transparent,var(--em3),transparent)}
+    .fc:nth-child(4)::before{background:linear-gradient(90deg,transparent,var(--gld3),transparent)}
+    .fc:nth-child(5)::before{background:linear-gradient(90deg,transparent,var(--em2),transparent)}
+    .fc:nth-child(6)::before{background:linear-gradient(90deg,transparent,var(--gld2),transparent)}
+    .fi{font-size:17px;display:block;margin-bottom:3px}
+    .fl{font-size:7.5px;font-weight:700;color:rgba(255,255,255,.36);text-transform:uppercase;letter-spacing:.06em;line-height:1.3}
+
+    /* STATS */
+    .sr{display:flex;align-items:stretch;background:rgba(5,150,105,.06);border:1px solid var(--bdr);border-radius:11px;overflow:hidden;width:100%;max-width:340px;margin-top:10px;animation:fu .4s .34s ease both}
+    .sc{flex:1;padding:9px 5px;text-align:center;position:relative}
+    .sc+.sc::before{content:'';position:absolute;left:0;top:15%;bottom:15%;width:1px;background:var(--bdr)}
+    .sv{font-size:17px;font-weight:800;line-height:1;letter-spacing:.04em}
+    .se{color:var(--em3)}.sg{color:var(--gld3)}.sw{color:#fff}
+    .sl{font-size:7.5px;font-weight:700;color:rgba(255,255,255,.25);text-transform:uppercase;letter-spacing:.1em;margin-top:2px}
+
+    /* INFO */
+    .ir{display:flex;align-items:center;gap:10px;justify-content:center;width:100%;margin-top:9px;flex-wrap:wrap;animation:fu .4s .40s ease both}
+    .ii{display:flex;align-items:center;gap:4px;font-size:9.5px;font-weight:600;color:rgba(255,255,255,.24)}
+    .is{width:3px;height:3px;border-radius:50%;background:var(--bdr);flex-shrink:0}
+
+    /* CTA */
+    .cw{width:100%;max-width:340px;margin-top:12px;animation:fu .4s .46s ease both}
+    .btn{position:relative;overflow:hidden;display:flex;align-items:center;justify-content:center;gap:10px;width:100%;padding:15px 28px;border-radius:10px;
+      background:linear-gradient(135deg,#064e3b,var(--em),var(--em2),var(--em3));background-size:200% auto;
+      color:#020a06;font-family:'Poppins',sans-serif;font-weight:800;font-size:14px;letter-spacing:.1em;text-transform:uppercase;text-decoration:none;border:none;cursor:pointer;
+      box-shadow:0 6px 28px rgba(5,150,105,.50);animation:bp 2.2s ease-in-out infinite,gs 3s linear infinite}
+    .btn::before{content:'';position:absolute;inset:0;background:linear-gradient(90deg,transparent,rgba(255,255,255,.22),transparent);transform:translateX(-100%);animation:sh 2.4s ease-in-out infinite}
+    @keyframes sh{0%{transform:translateX(-100%)}55%,100%{transform:translateX(100%)}}
+    @keyframes bp{0%,100%{transform:scale(1);box-shadow:0 6px 28px rgba(5,150,105,.50)}50%{transform:scale(1.04);box-shadow:0 10px 38px rgba(217,119,6,.40)}}
+    @keyframes gs{0%{background-position:0% center}100%{background-position:200% center}}
+    .bin{position:relative;z-index:1;display:flex;align-items:center;gap:10px}
+    .wai{font-size:20px;flex-shrink:0}
+
+    .cr{position:fixed;bottom:9px;left:0;right:0;text-align:center;font-size:11px;color:rgba(255,255,255,.18);z-index:100;letter-spacing:.03em}
+    .cr a{color:var(--em2);text-decoration:none;font-weight:700}
+
+    @keyframes fu{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:translateY(0)}}
+
+    /* PHONE */
+    @media(max-width:480px){
+      html,body{overflow:hidden}
+      .page{padding:26px 18px 24px;justify-content:center;gap:0}
+      .hdr{margin-bottom:10px}.ht{font-size:8px;letter-spacing:.26em}.hl{max-width:26px}
+      .lo{width:104px;height:104px}.badge{width:24px;height:24px;font-size:12px}
+      .nr{margin-top:10px}.nrt{font-size:8px;letter-spacing:.14em}
+      .tw{margin-top:9px}.pl{font-size:6.5px;letter-spacing:.22em;margin-bottom:3px}
+      h1{font-size:clamp(19px,5.2vw,24px)}.atag{font-size:8px;padding:3px 10px;margin-top:4px}.tgl{font-size:10px;margin-top:4px;line-height:1.55}
+      .ret-banner{margin-top:10px;max-width:100%}.rb-pct{font-size:22px}.rb-left{padding:12px 14px}.rb-right{padding:9px 11px}.rb-right b{font-size:10.5px}.rb-right span{font-size:8.5px}
+      .fg{margin-top:9px;gap:6px;max-width:100%}.fc{padding:8px 4px;border-radius:8px}.fi{font-size:15px;margin-bottom:2px}.fl{font-size:7px}
+      .sr{margin-top:9px;max-width:100%;border-radius:10px}.sc{padding:8px 4px}.sv{font-size:15px}.sl{font-size:7px}
+      .ir{margin-top:8px;gap:7px}.ii{font-size:9px}
+      .cw{margin-top:11px;max-width:100%;padding:0 2px}.btn{font-size:13px;padding:14px 18px;letter-spacing:.09em;border-radius:10px}.wai{font-size:18px}
+      .ticker-wrap{height:20px}.ti{font-size:8px}
+      .tex{background-image:radial-gradient(circle,rgba(5,150,105,.12) 1.5px,transparent 1.5px);background-size:17px 17px}
+      .cr{font-size:10px;bottom:7px}
+    }
+    @media(max-width:370px){
+      .lo{width:88px;height:88px}h1{font-size:17px}.sv{font-size:13px}.fi{font-size:13px}.fl{font-size:6.5px}
+      .btn{font-size:12px;padding:13px 14px}.ret-banner{margin-top:8px}.fg{margin-top:8px}.sr{margin-top:7px}.cw{margin-top:10px}.tw{margin-top:7px}
+    }
+    @media(min-width:768px){
+      .page{padding:30px 36px 26px}.hdr{margin-bottom:14px}.ht{font-size:9.5px;letter-spacing:.34em}.hl{max-width:52px}
+      .lo{width:120px;height:120px}.badge{width:30px;height:30px;font-size:15px}.nr{margin-top:12px}.nrt{font-size:10px;letter-spacing:.2em}
+      .tw{margin-top:13px}.pl{font-size:8.5px;letter-spacing:.34em;margin-bottom:5px}h1{font-size:42px}.atag{font-size:10px;padding:4px 14px;margin-top:6px}.tgl{font-size:12.5px;margin-top:7px}
+      .ret-banner{max-width:420px;margin-top:14px}.rb-pct{font-size:32px}.rb-left{padding:16px 20px}.rb-right{padding:13px 16px}.rb-right b{font-size:13px}.rb-right span{font-size:10.5px}
+      .fg{max-width:420px;margin-top:13px;gap:9px}.fc{padding:11px 6px;border-radius:11px}.fi{font-size:20px;margin-bottom:4px}.fl{font-size:9px}
+      .sr{max-width:420px;margin-top:13px;border-radius:13px}.sc{padding:11px 8px}.sv{font-size:20px}.sl{font-size:8.5px;margin-top:3px}
+      .ir{margin-top:12px;gap:14px}.ii{font-size:11px}
+      .cw{max-width:420px;margin-top:15px}.btn{font-size:15px;padding:16px 34px;letter-spacing:.1em;border-radius:12px}.wai{font-size:22px}
+    }
+    @media(min-width:1200px){.lo{width:132px;height:132px}h1{font-size:50px}.ret-banner,.fg,.sr,.cw{max-width:480px}}
+  </style>
+</head>
+<body>
+
+  <div class="top-bar"></div>
+
+  <!-- Live Forex Ticker -->
+  <div class="ticker-wrap">
+    <div class="ticker-track">
+      <div class="ti"><span class="lbl">EURUSD</span><span class="up">▲ 1.0842 +0.18%</span></div>
+      <div class="ti"><span class="lbl">GBPUSD</span><span class="up">▲ 1.2731 +0.22%</span></div>
+      <div class="ti"><span class="lbl">USDJPY</span><span class="dn">▼ 149.32 -0.14%</span></div>
+      <div class="ti"><span class="lbl">XAUUSD</span><span class="up">▲ 2318.40 +0.92%</span></div>
+      <div class="ti"><span class="lbl">USDCHF</span><span class="dn">▼ 0.9012 -0.08%</span></div>
+      <div class="ti"><span class="lbl">AUDUSD</span><span class="up">▲ 0.6542 +0.31%</span></div>
+      <div class="ti"><span class="lbl">NZDUSD</span><span class="up">▲ 0.5987 +0.19%</span></div>
+      <!-- duplicate for seamless loop -->
+      <div class="ti"><span class="lbl">EURUSD</span><span class="up">▲ 1.0842 +0.18%</span></div>
+      <div class="ti"><span class="lbl">GBPUSD</span><span class="up">▲ 1.2731 +0.22%</span></div>
+      <div class="ti"><span class="lbl">USDJPY</span><span class="dn">▼ 149.32 -0.14%</span></div>
+      <div class="ti"><span class="lbl">XAUUSD</span><span class="up">▲ 2318.40 +0.92%</span></div>
+      <div class="ti"><span class="lbl">USDCHF</span><span class="dn">▼ 0.9012 -0.08%</span></div>
+      <div class="ti"><span class="lbl">AUDUSD</span><span class="up">▲ 0.6542 +0.31%</span></div>
+    </div>
+  </div>
+
+  <div class="bg"></div>
+  <div class="grid"></div>
+  <div class="tex"></div>
+  <div class="scan"></div>
+  <div class="orb o1"></div><div class="orb o2"></div><div class="orb o3"></div>
+  <div class="pts">
+    <div class="p p1"></div><div class="p p2"></div><div class="p p3"></div>
+    <div class="p p4"></div><div class="p p5"></div><div class="p p6"></div>
+    <div class="p p7"></div><div class="p p8"></div>
+  </div>
+
+  <main class="page">
+
+    <div class="hdr">
+      <div class="hl"></div>
+      <div class="ht">💹 &nbsp; Auto Trading Platform &nbsp; 💹</div>
+      <div class="hl"></div>
+    </div>
+
+    <!-- Logo — LINKED -->
+    <a href="https://wa.link/a7ldjy" target="_blank" rel="noopener" class="ll">
+      <div class="ls">
+        <div class="lo">
+          <div class="r1"></div><div class="r2"></div><div class="r3"></div>
+          <div class="li">
+            <img src="https://fantasticczone.site/wp-content/uploads/2026/06/photo_2026-06-06_12-12-58.jpg" alt="Forex Masters"
+              onerror="this.style.display='none';this.parentElement.style.background='#051a0e';this.parentElement.innerHTML='<span style=\'font-family:Poppins,sans-serif;font-size:16px;color:#34d399;font-weight:900\'>FM</span>'"/>
+          </div>
+          <div class="ld d1"></div><div class="ld d2"></div><div class="ld d3"></div><div class="ld d4"></div>
+          <div class="badge">💹</div>
+        </div>
+        <div class="nr">
+          <div class="nrl nl1"></div>
+          <span class="nrt">Forex Master's</span>
+          <div class="nrl nl2"></div>
+        </div>
+      </div>
+    </a>
+
+    <!-- Title -->
+    <div class="tw">
+      <div class="pl">— Auto Trading · Currency Market Expert —</div>
+      <h1><span class="fx">FOREX</span> <span class="ms">MASTER'S</span></h1>
+      <div class="atag"><div class="adot"></div>Auto Trading Platform · Guaranteed Returns</div>
+      <p class="tgl">
+        <span class="hi">10–15% Daily Return</span> · Safe Trading Platform 🤖<br/>
+        <span class="h2">Currency Market</span> · Automated Trading System
+      </p>
+    </div>
+
+    <!-- Return % Banner — UNIQUE ELEMENT -->
+    <div class="ret-banner">
+      <div class="rb-left">
+        <div class="rb-pct">10-15%</div>
+        <div class="rb-sub">Daily Return</div>
+      </div>
+      <div class="rb-right">
+        <b>Guaranteed Daily Returns 🏆</b>
+        <span>Safe auto trading · Currency market · AI powered platform</span>
+        <div class="rb-live"><div class="rld"></div><span class="rlt">AUTO TRADING ACTIVE</span></div>
+      </div>
+    </div>
+
+    <!-- Feature Grid -->
+    <div class="fg">
+    
+      <div class="fc"><span class="fi">💱</span><span class="fl">Currency<br/>Market</span></div>
+      <div class="fc"><span class="fi">📈</span><span class="fl">Daily<br/>Profit</span></div>
+      <div class="fc"><span class="fi">⚡</span><span class="fl">Instant<br/>Payout</span></div>
+    </div>
+
+    <!-- Stats -->
+    <div class="sr">
+      <div class="sc"><div class="sv se">AUTO</div><div class="sl">Trading</div></div>
+      <div class="sc"><div class="sv sg">10-15%</div><div class="sl">Daily</div></div>
+      <div class="sc"><div class="sv sw">SAFE</div><div class="sl">Platform</div></div>
+    </div>
+
+    <!-- Info -->
+    <div class="ir">
+      <div class="ii">✅ Guaranteed Return</div>
+      <div class="is"></div>
+      <div class="ii">🤖 AI Powered</div>
+      <div class="is"></div>
+      <div class="ii">🔒 100% Safe</div>
+    </div>
+
+    <!-- CTA — WhatsApp LINKED -->
+    <div class="cw">
+      <a href="https://wa.link/a7ldjy" target="_blank" rel="noopener" class="btn">
+        <span class="bin">
+          <span class="wai">💬</span>
+          Start Trading — WhatsApp Now
+        </span>
+      </a>
+    </div>
+
+  </main>
+
+  <p class="cr">Ads by <a href="https://t.me/+TRlJl628l-FkMWE9" target="_blank" rel="noopener">@Nexgroww_agency</a></p>
+</body>
+</html>
